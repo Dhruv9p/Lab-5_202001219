@@ -6,6 +6,7 @@ Static analysis is a method of examining the source code of a software program w
 Static Analysis Tools:
 
 Python:
+
 ● Mypy
 ● Pylint
 ● Pyflakes
@@ -15,6 +16,7 @@ Python:
 ● Bandit
 
 Java:
+
 ● FindBugs
 ● PMD
 ● Checkstyle
@@ -31,7 +33,26 @@ First I installed mypy in my PC as python was already installed.
 Now I have to analyze different python files from github.
 Here are some Examples-
 
-1) https://github.com/greatti/Data_Studies_in_Pandas-I-.git
+1) https://github.com/yjg30737/python-file-shuffle.git
+
+![image](https://user-images.githubusercontent.com/82575404/225567936-617244b9-ce7c-4c80-8f63-42d084f9ddbf.png)
+
+Here no errors were identified.
+
+2) https://github.com/Vaibhav-Mehta-19/automated-attendance-system-using-face-recognition.git
+
+![image](https://user-images.githubusercontent.com/82575404/225568937-e99d0b57-c682-4627-916a-9545c17839c1.png)
+
+error: Cannot find implementation or library stub for module named "cv2"
+
+error: Library stubs not installed for "PIL"
+
+3) https://github.com/Abhishek010397/Read-Files-Python.git
+
+![image](https://user-images.githubusercontent.com/82575404/225572841-d2ece2fd-5872-4586-b8cc-2886beb7f8ca.png)
+
+ error: Incompatible types in assignment (expression has type "TextIOWrapper", variable has type "str")
+
 
 
 
